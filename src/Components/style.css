@@ -1,0 +1,58 @@
+.dashboard {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.character-list-view {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+}
+
+.individual-character-card-wrap {
+  position: absolute;
+  width: 100%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.individual-character-card {
+  border-radius: 5px;
+  background-color: rgb(242, 240, 240);
+  box-shadow: 1px 1px 7px 1px gray;
+}
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  background-color: rgb(242, 240, 240);
+  border: 0.1px solid gray;
+  border-radius: 4px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 1% 3%;
+  overflow: hidden;
+}
+.card-wrapper > p {
+  margin: 0;
+}
+.card-wrapper:hover {
+  box-shadow: 1px 1px 10px 10px gray;
+}
